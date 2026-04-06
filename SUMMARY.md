@@ -22,6 +22,7 @@
 
 * [Module 3 소개](module3-spec/README.md)
 * [Spec 작성해보기](module3-spec/write-spec.md)
+* [🚀 (보너스) Task 실행하기](module3-spec/run-tasks.md)
 
 ## Module 4: 팀 챌린지 - 우리 점포 도우미 만들기
 
