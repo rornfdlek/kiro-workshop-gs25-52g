@@ -1,7 +1,3 @@
----
-description: GS25 편의점 점주를 위한 Kiro AI 코딩 워크샵
----
-
 # Kiro Workshop - GS25 편의점 AI 도우미 만들기
 
 ## "말로 만드는 우리 점포 AI 도우미"

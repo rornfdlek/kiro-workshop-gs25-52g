@@ -1,7 +1,3 @@
----
-description: Steering의 개념과 효과를 이해합니다
----
-
 # Steering이란?
 
 ## 한마디로
@@ -34,10 +30,9 @@ description: Steering의 개념과 효과를 이해합니다
 * 답변이 항상 존댓말
 * 모바일에서도 잘 보임
 
-{% hint style="success" %}
-**핵심 포인트**\
-Steering = 한 번 쓰면 매번 반복하지 않아도 되는 **자동 적용 규칙**
-{% endhint %}
+> **✅ 완료**
+> **핵심 포인트**\
+> Steering = 한 번 쓰면 매번 반복하지 않아도 되는 **자동 적용 규칙**
 
 ***
 
