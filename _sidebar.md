@@ -20,8 +20,8 @@
   - [Spec 작성해보기](module3-spec/write-spec.md)
   - [🚀 (보너스) Task 실행하기](module3-spec/run-tasks.md)
 
-- **Module 4: 팀 챌린지 - 우리 점포 도우미 만들기**
-  - [Module 4 소개](module4-challenge/README.md)
+- **Module 4: 자유 실습 - 나만의 점포 도우미 만들기**
+  - [자유 실습 소개](module4-challenge/README.md)
   - [주제 선택 가이드](module4-challenge/topics.md)
 
 - **마무리**

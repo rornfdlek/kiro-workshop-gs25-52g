@@ -83,7 +83,7 @@ graph LR
     A["🏁 시작하기<br/>환경 설정<br/>20분"] --> B["📏 Module 1<br/>Steering<br/>25분"]
     B --> C["💬 Module 2<br/>바이브 코딩<br/>50분"]
     C --> D["📐 Module 3<br/>Spec<br/>15분"]
-    D --> E["🏆 Module 4<br/>팀 챌린지<br/>30분"]
+    D --> E["🛠️ Module 4<br/>자유 실습<br/>30분"]
     E --> F["🎉 마무리<br/>결과 공유<br/>10분"]
     style A fill:#E8F5E9,stroke:#4CAF50,color:#333
     style B fill:#E3F2FD,stroke:#2196F3,color:#333
@@ -99,7 +99,7 @@ graph LR
 | **📏 Module 1** | Steering - AI에게 규칙 알려주기 | 25분 | ⭐ |
 | **💬 Module 2** | 바이브 코딩 - 말로 앱 만들기 | 50분 | ⭐⭐ |
 | **📐 Module 3** | Spec - 요구사항 정리하기 | 15분 | ⭐ |
-| **🏆 Module 4** | 팀 챌린지 - 우리 점포 도우미 만들기 | 30분 | ⭐⭐ |
+| **🛠️ Module 4** | 자유 실습 - 우리 점포 도우미 만들기 | 30분 | ⭐⭐ |
 | **🎉 마무리** | 결과 공유 + 정리 | 10분 | - |
 
 > **⏰ 총 소요 시간: 약 2시간 30분**

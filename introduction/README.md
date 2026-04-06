@@ -26,7 +26,7 @@ graph TD
     SETUP --> M1["📏 Module 1: Steering<br/>AI에게 규칙 알려주기<br/><i>새 알바생에게 규칙서 주기</i>"]
     M1 --> M2["💬 Module 2: 바이브 코딩<br/>말로 앱 만들기<br/><i>드디어 앱이 나타남!</i>"]
     M2 --> M3["📐 Module 3: Spec<br/>요구사항 정리<br/><i>AI가 설계도를 그려줌</i>"]
-    M3 --> M4["🏆 Module 4: 팀 챌린지<br/>나만의 도우미 만들기<br/><i>자유롭게 만들기!</i>"]
+    M3 --> M4["🛠️ Module 4: 자유 실습<br/>나만의 도우미 만들기<br/><i>자유롭게 만들기!</i>"]
     M4 --> FINISH["🎉 완성!<br/>내가 만든 AI 앱 자랑하기"]
     
     style START fill:#FFF9C4,stroke:#F9A825,color:#333
