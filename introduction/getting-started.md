@@ -7,120 +7,102 @@
 
 ## 📍 Step 1: Kiro 설치하기
 
-### 1-1. 다운로드 링크 받기
+아래 링크에서 Kiro를 다운로드하고 설치합니다. (일반 프로그램 설치와 동일합니다)
 
-> **ℹ️ 참고**\
-> Kiro 다운로드 링크는 워크샵 당일 진행자가 화면에 띄워드립니다.\
-> 진행자의 안내를 기다려주세요! ⏳
+👉 [https://kiro.dev/](https://kiro.dev/)
 
-### 1-2. 다운로드하기
+<div align="left"><figure><img src="../.gitbook/assets/kiro-다운로드-페이지.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-진행자가 알려준 링크를 **크롬(Chrome) 브라우저**에 입력합니다.
+* 메인 페이지에 보이는 다운로드 버튼을 클릭해 운영체제에 맞는 설치 파일을 다운받습니다.
+* 다운로드한 설치 파일을 운영 체제에 맞는 방식으로 실행하여 설치를 시작합니다.
 
-![Kiro 다운로드 페이지](../.gitbook/assets/placeholder-kiro-다운로드-페이지.png)
+<div align="left"><figure><img src="../.gitbook/assets/kiro-install-1.png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/kiro-install-2.png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/kiro-install-3.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-1. 화면에서 **Download** 버튼을 찾습니다 (파란색 큰 버튼입니다)
-2. 본인 컴퓨터에 맞는 버전을 선택합니다:
-   - **Windows** 사용자 → `Windows` 클릭
-   - **Mac** 사용자 → `macOS` 클릭
-
-![다운로드 버튼 위치](../.gitbook/assets/placeholder-다운로드-버튼-위치.png)
-
-> **⚠️ 잠깐!**\
-> Mac 사용자 중 "Apple Silicon" 또는 "Intel" 을 선택하는 화면이 나올 수 있어요.\
-> 잘 모르시겠으면 **진행자에게 물어보세요!** 전혀 부끄러운 질문이 아닙니다 😊
-
-### 1-3. 설치하기
-
-**Windows의 경우:**
-1. 다운로드된 파일(`.exe`)을 **더블클릭**합니다
-2. "이 앱이 디바이스를 변경할 수 있도록 허용하시겠어요?" → **예** 클릭
-3. 설치 화면이 나오면 **Next** → **Next** → **Install** 순서로 클릭합니다
-4. 설치가 끝나면 **Finish** 클릭
-
-![Windows 설치 화면](../.gitbook/assets/placeholder-windows-설치화면.png)
-
-**Mac의 경우:**
-1. 다운로드된 파일(`.dmg`)을 **더블클릭**합니다
-2. 열린 창에서 **Kiro 아이콘을 Applications 폴더로 드래그**합니다
-3. Applications 폴더에서 Kiro를 찾아 **더블클릭**으로 실행합니다
-
-![Mac 설치 화면 - 드래그 앤 드롭](../.gitbook/assets/placeholder-mac-설치화면.png)
-
-> **⚠️ 잠깐! Mac에서 "확인되지 않은 개발자" 경고가 나온다면?**\
-> 1. **취소**를 누릅니다\
-> 2. Mac의 **시스템 설정** → **개인정보 보호 및 보안** 으로 이동합니다\
-> 3. 아래쪽에 "Kiro가 차단되었습니다" 메시지 옆의 **확인 없이 열기** 클릭\
-> 4. 다시 Kiro를 실행합니다\
-> \
-> 그래도 안 되면 **진행자를 불러주세요!** 🙋
-
-### 1-4. Kiro 처음 실행하기
-
-설치가 끝나면 Kiro를 실행합니다.
-
-![Kiro 실행 첫 화면](../.gitbook/assets/placeholder-kiro-첫-실행화면.png)
+Kiro IDE를 실행하여 정상적으로 설치되었는지 확인합니다.
 
 > **✅ 체크포인트**\
 > Kiro 창이 열렸으면 이 단계는 성공입니다! 🎉
 
 ---
 
-## 📍 Step 2: AWS 계정으로 로그인하기
+## 📍 Step 2: Kiro 로그인하기
 
-Kiro를 사용하려면 AWS 계정으로 로그인해야 합니다.\
-(계정은 진행자가 나눠드립니다 - 외울 필요 없어요!)
+Kiro는 다양한 로그인 방법을 제공합니다:
 
-### 2-1. 로그인 화면 확인하기
+* **Google 계정**
+* **GitHub 계정**
+* **AWS Builder ID** (무료 생성 가능, 권장)
+* **AWS SSO** (조직 계정)
 
-Kiro가 실행되면 로그인 화면이 나타납니다.
 
-![로그인 화면](../.gitbook/assets/placeholder-로그인-화면.png)
+### AWS Builder ID 로 로그인하기
 
-두 가지 로그인 방법이 보일 수 있어요:
+이번 실습에서는 **AWS Builder ID**를 통해 Kiro에 대한 **무료 액세스**를 제공합니다.
 
-| 로그인 방법 | 언제 사용? |
-| --- | --- |
-| **AWS Builder ID** | 진행자가 "Builder ID로 로그인하세요"라고 안내할 때 |
-| **IAM Identity Center** | 진행자가 "SSO로 로그인하세요"라고 안내할 때 |
+AWS Builder ID는 AWS의 무료 개인 프로필로, AWS 계정 없이도 다양한 AWS 개발자 도구와 서비스를 사용할 수 있게 해줍니다.
 
-> **ℹ️ 참고**\
-> 어떤 방법을 사용할지는 **진행자의 안내를 따라주세요!** 👂
+**준비물**
 
-### 2-2. 로그인 정보 입력하기
+* AWS Builder ID 등록을 위한 **유효한 이메일 주소**
+* AWS 계정 불필요
 
-1. 진행자가 나눠준 **계정 정보 종이(또는 화면)**를 확인합니다
-2. 안내된 로그인 방법을 선택합니다
-3. 이메일/ID와 비밀번호를 입력합니다
-4. **Sign in** (또는 **로그인**) 버튼을 클릭합니다
 
-![로그인 정보 입력](../.gitbook/assets/placeholder-로그인-정보입력.png)
+#### 1. AWS Builder ID 생성
 
-### 2-3. 브라우저 인증 확인
+**1-1.** [AWS Builder ID 등록 페이지 ](https://profile.aws.amazon.com/)를 방문합니다.
 
-로그인하면 **브라우저(크롬)**가 자동으로 열릴 수 있습니다.
+<div align="left"><figure><img src="../.gitbook/assets/kiro-login-1.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-![브라우저 인증 화면](../.gitbook/assets/placeholder-브라우저-인증화면.png)
+**1-2.** **유효한 이메일 주소**를 입력한 뒤 **계속** 버튼을 클릭합니다.
 
-1. 브라우저에서 **"Confirm"** 또는 **"Allow"** 버튼을 클릭합니다
-2. "You can close this window" 같은 메시지가 나오면 **브라우저를 닫아도 됩니다**
-3. 다시 Kiro 화면으로 돌아갑니다
+**1-3.** 안내에 따라 계정을 생성합니다.
 
-> **⚠️ 잠깐! 로그인이 안 된다면?**\
-> 아래를 확인해보세요:\
-> \
-> | 증상 | 해결 방법 |
-> | --- | --- |
-> | 브라우저가 안 열려요 | Kiro를 껐다가 다시 켜보세요 |
-> | 비밀번호가 틀렸대요 | 진행자가 준 정보를 다시 확인해보세요 (대소문자 주의!) |
-> | 아무 반응이 없어요 | 인터넷 연결을 확인해보세요 (Wi-Fi) |
-> | 위 방법 다 안돼요 | **바로 진행자에게 말씀해주세요!** 🙋 |
-> \
-> 환경 설정에서 시간을 너무 많이 쓰지 않는 것이 중요합니다.\
-> **2분 이상 막히면 바로 도움을 요청**하세요!
+**1-4.** 입력한 이메일 주소를 인증합니다.
+
+**1-5.** 계정 생성을 완료한 후 My details 페이지에서 AWS Builder ID의 세부 내용을 확인하실 수 있습니다.
+
+<div align="left"><figure><img src="../.gitbook/assets/kiro-login-2.png" alt="" width="375"><figcaption></figcaption></figure></div>
+
+> **등록 완료!**\
+> AWS Builder ID가 성공적으로 생성되었습니다! 이제 이 계정으로 Kiro IDE 또는 Kiro CLI에 로그인할 수 있습니다.
+
+#### 2. Kiro IDE 에서 AWS Builder ID로 로그인
+
+**2-1.** Kiro IDE를 실행한 뒤 **Sign in** 버튼을 누릅니다.
+
+<div align="left"><figure><img src="../.gitbook/assets/kiro-login-3.png" alt="" width="375"><figcaption></figcaption></figure></div>
+
+**2-2.** 로그인 화면에서 **"AWS Builder ID"** 옵션을 선택합니다.
+
+<div align="left"><figure><img src="../.gitbook/assets/kiro-login-4.png" alt="" width="375"><figcaption></figcaption></figure></div>
+
+**2-3.** 방금 생성한 AWS Builder ID의 **이메일 주소**와 **비밀번호**를 입력하여 로그인을 진행합니다.
+
+**2-4.** 필요한 경우 이메일로 전송된 추가 인증 코드를 입력합니다.
+
+**2-5.** **"액세스 허용"** 버튼을 클릭하여 Kiro IDE가 데이터에 액세스하도록 허용합니다.
+
+<div align="left"><figure><img src="../.gitbook/assets/kiro-login-5.png" alt="" width="375"><figcaption></figcaption></figure></div>
+
+- "You can close this window" 같은 메시지가 나오면 **브라우저를 닫아도 됩니다**
+
+**2-6.** 모든 과정이 끝나면 Kiro를 사용할 준비가 끝납니다.
+
+<div align="left"><figure><img src="../.gitbook/assets/kiro-login-6.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 > **✅ 체크포인트**\
 > Kiro 우측 하단에 로그인 된 계정 정보가 보이면 성공입니다! 🎉
+
+
+
+> **축하드립니다!🎉**\
+> Kiro에 성공적으로 로그인했습니다! 이제 AI와 협업하는 개발 경험을 시작할 준비가 되었습니다.
+
+> Kiro는 Visual Studio Code(VS Code)와 비슷하게 생긴 프로그램입니다. \
+> VS Code 를 모르셔도, 처음 보셔도 당황하지 마세요! \
+> 우리가 사용할 것은 **채팅창**뿐입니다.
 
 ---
 
@@ -144,19 +126,15 @@ Kiro가 실행되면 로그인 화면이 나타납니다.
 폴더 선택 창이 열리면:
 
 1. **바탕화면** (Desktop)으로 이동합니다
-2. **`gs25-ai-helper`** 폴더를 찾아서 클릭합니다
+2. **`gs25-ai-helper`** 라는 이름으로 새 폴더를 만들어 줍니다
 3. **열기** (또는 **Select Folder**) 버튼을 클릭합니다
 
 ![바탕화면에서 폴더 선택](../.gitbook/assets/placeholder-폴더-선택-화면.png)
 
 > **ℹ️ 참고**\
-> 이 폴더는 진행자가 미리 준비해둔 **템플릿 프로젝트**입니다.\
-> 빈 폴더가 아니라 **샘플 규정 데이터 파일**이 들어있어요.\
+> 이후 진행될 모듈에서 이 폴더에 **샘플 규정 데이터 파일**을 넣어 테스트하게 됩니다.\
 > (나중에 AI가 이 데이터를 읽어서 답변에 활용합니다!)
 
-> **⚠️ 잠깐! 폴더가 안 보인다면?**\
-> - 바탕화면을 잘 찾아보세요. 혹시 다른 폴더 안에 있을 수도 있습니다\
-> - 정 안 보이면 진행자에게 "바탕화면에 폴더가 없어요!" 라고 말씀해주세요 🙋
 
 ### 3-3. "이 폴더의 작성자를 신뢰하시나요?" 메시지
 
