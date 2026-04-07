@@ -11,14 +11,14 @@
 
 👉 [https://kiro.dev/](https://kiro.dev/)
 
-<div align="left"><figure><img src="../.gitbook/assets/kiro-다운로드-페이지.png" alt="" width="375"><figcaption></figcaption></figure></div>
+![Kiro 다운로드 페이지](../.gitbook/assets/kiro-다운로드-페이지.png ':size=375')
 
 * 메인 페이지에 보이는 다운로드 버튼을 클릭해 운영체제에 맞는 설치 파일을 다운받습니다.
 * 다운로드한 설치 파일을 운영 체제에 맞는 방식으로 실행하여 설치를 시작합니다.
 
-<div align="left"><figure><img src="../.gitbook/assets/kiro-install-1.png" alt="" width="375"><figcaption></figcaption></figure></div>
-<div align="left"><figure><img src="../.gitbook/assets/kiro-install-2.png" alt="" width="375"><figcaption></figcaption></figure></div>
-<div align="left"><figure><img src="../.gitbook/assets/kiro-install-3.png" alt="" width="375"><figcaption></figcaption></figure></div>
+![Kiro 설치 1](../.gitbook/assets/kiro-install-1.png ':size=375')
+![Kiro 설치 2](../.gitbook/assets/kiro-install-2.png ':size=375')
+![Kiro 설치 3](../.gitbook/assets/kiro-install-3.png ':size=375')
 
 Kiro IDE를 실행하여 정상적으로 설치되었는지 확인합니다.
 
@@ -53,7 +53,7 @@ AWS Builder ID는 AWS의 무료 개인 프로필로, AWS 계정 없이도 다양
 
 **1-1.** [AWS Builder ID 등록 페이지 ](https://profile.aws.amazon.com/)를 방문합니다.
 
-<div align="left"><figure><img src="../.gitbook/assets/kiro-login-1.png" alt="" width="375"><figcaption></figcaption></figure></div>
+![Kiro 로그인 1](../.gitbook/assets/kiro-login-1.png ':size=375')
 
 **1-2.** **유효한 이메일 주소**를 입력한 뒤 **계속** 버튼을 클릭합니다.
 
@@ -63,7 +63,7 @@ AWS Builder ID는 AWS의 무료 개인 프로필로, AWS 계정 없이도 다양
 
 **1-5.** 계정 생성을 완료한 후 My details 페이지에서 AWS Builder ID의 세부 내용을 확인하실 수 있습니다.
 
-<div align="left"><figure><img src="../.gitbook/assets/kiro-login-2.png" alt="" width="375"><figcaption></figcaption></figure></div>
+![Kiro 로그인 2](../.gitbook/assets/kiro-login-2.png ':size=375')
 
 > **등록 완료!**\
 > AWS Builder ID가 성공적으로 생성되었습니다! 이제 이 계정으로 Kiro IDE 또는 Kiro CLI에 로그인할 수 있습니다.
@@ -72,11 +72,11 @@ AWS Builder ID는 AWS의 무료 개인 프로필로, AWS 계정 없이도 다양
 
 **2-1.** Kiro IDE를 실행한 뒤 **Sign in** 버튼을 누릅니다.
 
-<div align="left"><figure><img src="../.gitbook/assets/kiro-login-3.png" alt="" width="375"><figcaption></figcaption></figure></div>
+![Kiro 로그인 3](../.gitbook/assets/kiro-login-3.png ':size=375')
 
 **2-2.** 로그인 화면에서 **"AWS Builder ID"** 옵션을 선택합니다.
 
-<div align="left"><figure><img src="../.gitbook/assets/kiro-login-4.png" alt="" width="375"><figcaption></figcaption></figure></div>
+![Kiro 로그인 4](../.gitbook/assets/kiro-login-4.png ':size=375')
 
 **2-3.** 방금 생성한 AWS Builder ID의 **이메일 주소**와 **비밀번호**를 입력하여 로그인을 진행합니다.
 
@@ -84,13 +84,13 @@ AWS Builder ID는 AWS의 무료 개인 프로필로, AWS 계정 없이도 다양
 
 **2-5.** **"액세스 허용"** 버튼을 클릭하여 Kiro IDE가 데이터에 액세스하도록 허용합니다.
 
-<div align="left"><figure><img src="../.gitbook/assets/kiro-login-5.png" alt="" width="375"><figcaption></figcaption></figure></div>
+![Kiro 로그인 5](../.gitbook/assets/kiro-login-5.png ':size=375')
 
 - "You can close this window" 같은 메시지가 나오면 **브라우저를 닫아도 됩니다**
 
 **2-6.** 모든 과정이 끝나면 Kiro를 사용할 준비가 끝납니다.
 
-<div align="left"><figure><img src="../.gitbook/assets/kiro-login-6.png" alt="" width="375"><figcaption></figcaption></figure></div>
+![Kiro 로그인 6](../.gitbook/assets/kiro-login-6.png ':size=375')
 
 > **✅ 체크포인트**\
 > Kiro 우측 하단에 로그인 된 계정 정보가 보이면 성공입니다! 🎉
