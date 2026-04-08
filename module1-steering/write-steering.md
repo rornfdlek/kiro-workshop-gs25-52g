@@ -7,40 +7,27 @@
 
 ## 📍 Step 1: Steering 파일 열기
 
-### 1-1. 왼쪽 파일 탐색기에서 `.kiro` 폴더 찾기
+### 1-1. 왼쪽 바에서 키로 아이콘(👻) 찾기
 
-Kiro 화면 **왼쪽**에 있는 파일 탐색기를 봐주세요.
+Kiro 화면 가장 **왼쪽**의 아이콘들을 봐 주세요.
 
-![파일 탐색기에서 .kiro 폴더 위치](../.gitbook/assets/placeholder-파일탐색기-kiro폴더.png)
+![키로 아이콘 찾기](../.gitbook/assets/kiro-steering-1.png)
 
-여러 폴더와 파일이 보일 텐데, 그 중에서 **`.kiro`** 라는 폴더를 찾습니다.
+여러 아이콘들이 보일 텐데, 그 중에서 **유령 모양**의 키로 아이콘을 찾고 클릭합니다. \
+`AGENT STEERINGS & SKILLS` 박스의 우측 상단에서 `+` 버튼을 클릭합니다.
 
-> **⚠️ 잠깐! `.kiro` 폴더가 안 보인다면?**\
-> `.`(점)으로 시작하는 폴더는 숨김 폴더라서 안 보일 수 있어요!\
-> \
-> 해결 방법:\
-> 1. 파일 탐색기 영역에서 **마우스 오른쪽 버튼**을 클릭합니다\
-> 2. 또는 진행자에게 "점키로 폴더가 안 보여요!" 라고 말씀해주세요 🙋
+### 1-2. `steering.md` 파일 만들기
 
-### 1-2. `.kiro` 폴더 열기
-
-1. `.kiro` 폴더 왼쪽의 **▶ 화살표**를 클릭합니다 (또는 폴더를 더블클릭)
-2. 폴더가 열리면서 안에 있는 파일이 보입니다
-3. **`steering.md`** 파일을 찾습니다
-
-![.kiro 폴더 안의 steering.md 파일](../.gitbook/assets/placeholder-steering-파일-위치.png)
-
-### 1-3. `steering.md` 파일 열기
-
-**`steering.md`** 파일을 **클릭**합니다.
-
-가운데 편집기 영역에 파일 내용이 열립니다.\
-(비어있거나 기본 내용이 있을 수 있어요)
-
-![steering.md 파일이 열린 모습](../.gitbook/assets/placeholder-steering-파일-열림.png)
+1. 팝업이 열리면 맨 위에 있는 `gs25-ai-helper agent steering` 옵션을 클릭합니다.
+![steering.md 파일](../.gitbook/assets/kiro-steering-2.png)
+2. 파일명을 입력하는 입력창이 나오면 `steering.md` 라고 입력합니다.
+![steering.md 파일](../.gitbook/assets/kiro-steering-3.png)
+3. 아래와 같이 화면 가운데에 파일이 열리면 성공입니다!
+![steering.md 파일](../.gitbook/assets/kiro-steering-4.png)
+- 가운데 편집기 영역에 파일 내용이 열립니다. (비어있거나 기본 내용이 있을 수 있어요)
 
 > **ℹ️ 참고**\
-> `.kiro/steering.md` 는 특별한 파일입니다!\
+> `steering.md` 는 특별한 파일입니다!\
 > Kiro가 프로젝트를 열 때 **자동으로 이 파일을 읽고** 기억합니다.\
 > 여기에 적은 규칙은 AI가 코드를 만들 때 **항상** 참고해요. 마치 알바생이 출근할 때마다 운영 규칙서를 확인하는 것처럼! 📋
 
@@ -56,7 +43,7 @@ Kiro 화면 **왼쪽**에 있는 파일 탐색기를 봐주세요.
 1. 아래 코드 블록의 내용을 **마우스로 전체 선택** (드래그)합니다
 2. `Ctrl + C` (Mac: `Cmd + C`)로 **복사**합니다
 3. Kiro의 steering.md 파일 편집기를 클릭합니다
-4. 기존 내용이 있다면 `Ctrl + A` (Mac: `Cmd + A`)로 전체 선택 후
+4. 기존 내용이 있다면 `Ctrl + A` (Mac: `Cmd + A`)로 전체 선택해서 지우고
 5. `Ctrl + V` (Mac: `Cmd + V`)로 **붙여넣기**합니다
 
 **📋 아래 내용을 복사해서 붙여넣기**
@@ -87,11 +74,11 @@ Kiro 화면 **왼쪽**에 있는 파일 탐색기를 봐주세요.
 - 답변 끝에 "추가 질문이 있으시면 말씀해주세요" 문구 추가
 ```
 
-![steering.md에 내용을 붙여넣은 모습](../.gitbook/assets/placeholder-steering-내용-붙여넣기-완료.png)
+![steering.md에 내용을 붙여넣은 모습](../.gitbook/assets/kiro-steering-6.png)
 
-> **⚠️ 잠깐! 잘 붙여넣어졌는지 확인하세요!**\
-> - `# GS25 규정 도우미 프로젝트` 로 시작하나요? ✅\
-> - 마지막 줄이 `답변 끝에 "추가 질문이 있으시면 말씀해주세요" 문구 추가` 인가요? ✅\
+> **⚠️ 잠깐! 잘 붙여넣어졌는지 확인하세요!**
+> - `# GS25 규정 도우미 프로젝트` 로 시작하나요? ✅
+> - 마지막 줄이 `답변 끝에 "추가 질문이 있으시면 말씀해주세요" 문구 추가` 인가요? ✅
 > - 내용이 잘려있지 않나요? ✅
 
 ---
@@ -183,14 +170,13 @@ graph TD
 **Windows**: `Ctrl` 키를 누른 상태에서 `S` 키를 누릅니다\
 **Mac**: `Cmd` 키를 누른 상태에서 `S` 키를 누릅니다
 
-![파일 저장 단축키](../.gitbook/assets/placeholder-저장-단축키.png)
 
 > **⚠️ 잠깐! 저장이 됐는지 확인하는 방법**\
 > 파일 탭(위쪽에 `steering.md`라고 적힌 탭)을 봐주세요.\
 > - 파일명 옆에 **흰색 동그라미(●)**가 보이면 → 아직 저장 안 됨! ❌\
+> ![저장 전후 탭 비교](../.gitbook/assets/kiro-steering-7.png)
 > - 동그라미가 **없으면** → 저장 완료! ✅
-
-![저장 전후 탭 비교](../.gitbook/assets/placeholder-저장-전후-탭-비교.png)
+> ![저장 전후 탭 비교](../.gitbook/assets/kiro-steering-8.png)
 
 ---
 
@@ -214,12 +200,13 @@ Kiro Chat에서 이렇게 물어보세요:
 ```
 이 프로젝트의 메인 색상이 뭐야?
 ```
+![Steering 적용 확인 테스트](../.gitbook/assets/kiro-steering-9.png)
 
 AI가 **"GS25 파란색 (#0066CC)입니다"** 같은 답변을 하면 → **Steering이 잘 적용된 것입니다!** 🎉
 
-AI가 엉뚱한 답을 하면 → steering.md 파일이 저장되었는지 다시 확인해보세요!
+![Steering 적용 확인 테스트](../.gitbook/assets/kiro-steering-10.png)
 
-![Steering 적용 확인 테스트](../.gitbook/assets/placeholder-steering-적용-확인.png)
+AI가 엉뚱한 답을 하면 → steering.md 파일이 저장되었는지 다시 확인해보세요!
 
 > **🎉 축하합니다!**\
 > 이제 이 프로젝트에서 AI에게 무엇을 요청하든, 방금 적은 규칙이 **자동으로 적용**됩니다!\
