@@ -116,10 +116,12 @@ AWS Builder ID는 AWS의 무료 개인 프로필로, AWS 계정 없이도 다양
 2. **File** (파일)을 클릭합니다
 3. 나타나는 메뉴에서 **Open Folder...** (폴더 열기)를 클릭합니다
 
-![File 메뉴에서 Open Folder 클릭](../.gitbook/assets/placeholder-file-open-folder.png)
+![File 메뉴에서 Open Folder 클릭](../.gitbook/assets/kiro-project-1.png)
 
 > **⚠️ 잠깐!**\
 > Mac에서는 메뉴가 화면 **맨 위 상단바**에 있을 수 있어요. Kiro 창 안이 아니라 **화면 제일 위쪽**을 확인해보세요!
+
+> 메인 화면에서 **Open a project** 버튼을 선택해도 됩니다!
 
 ### 3-2. 프로젝트 폴더 선택하기
 
@@ -129,7 +131,9 @@ AWS Builder ID는 AWS의 무료 개인 프로필로, AWS 계정 없이도 다양
 2. **`gs25-ai-helper`** 라는 이름으로 새 폴더를 만들어 줍니다
 3. **열기** (또는 **Select Folder**) 버튼을 클릭합니다
 
-![바탕화면에서 폴더 선택](../.gitbook/assets/placeholder-폴더-선택-화면.png)
+![바탕화면에서 폴더 선택](../.gitbook/assets/kiro-project-2.png)
+![바탕화면에서 폴더 선택](../.gitbook/assets/kiro-project-3.png)
+![바탕화면에서 폴더 선택](../.gitbook/assets/kiro-project-4.png)
 
 > **ℹ️ 참고**\
 > 이후 진행될 모듈에서 이 폴더에 **샘플 규정 데이터 파일**을 넣어 테스트하게 됩니다.\
@@ -140,7 +144,7 @@ AWS Builder ID는 AWS의 무료 개인 프로필로, AWS 계정 없이도 다양
 
 폴더를 열면 이런 메시지가 나올 수 있습니다:
 
-![신뢰 메시지 팝업](../.gitbook/assets/placeholder-trust-folder-popup.png)
+![신뢰 메시지 팝업](../.gitbook/assets/kiro-project-5.png)
 
 **"Yes, I trust the authors"** (네, 신뢰합니다) 버튼을 클릭하세요.
 
@@ -154,10 +158,11 @@ AWS Builder ID는 AWS의 무료 개인 프로필로, AWS 계정 없이도 다양
 프로젝트가 열리면 이제 Kiro 화면을 살펴봅시다!\
 처음 보면 복잡해 보이지만, **오늘 쓸 영역은 딱 2개**뿐입니다! ✌️
 
-![Kiro 전체 화면 구성](../.gitbook/assets/placeholder-kiro-전체-화면구성.png)
+![Kiro 전체 화면 구성](../.gitbook/assets/kiro-project-6.png)
 
 ### Kiro 화면 지도 🗺️
 
+![Kiro 전체 화면 구성](../.gitbook/assets/kiro-project-7.png)
 ```mermaid
 graph LR
     subgraph Kiro 화면
@@ -174,8 +179,6 @@ graph LR
 
 #### 1️⃣ 왼쪽: 파일 탐색기 📁 (오늘 사용합니다!)
 
-![파일 탐색기 영역](../.gitbook/assets/placeholder-파일탐색기-영역.png)
-
 - 프로젝트 안의 **폴더와 파일 목록**이 보입니다
 - 파일을 **클릭**하면 가운데 영역에서 내용이 열립니다
 - 오늘은 여기서 **`.kiro` 폴더** 안의 파일을 열어볼 거예요
@@ -184,8 +187,6 @@ graph LR
 > 파일 탐색기가 안 보인다면? 키보드에서 `Ctrl + B` (Mac: `Cmd + B`)를 눌러보세요!
 
 #### 2️⃣ 가운데: 코드 편집기 📝 (무시해도 됩니다!)
-
-![코드 편집기 영역](../.gitbook/assets/placeholder-코드편집기-영역.png)
 
 - 파일을 클릭하면 여기에 내용이 표시됩니다
 - 코드가 잔뜩 보여도 **놀라지 마세요!** 😅
@@ -198,19 +199,17 @@ graph LR
 
 #### 3️⃣ 오른쪽: Kiro Chat 💬 (가장 중요합니다!)
 
-![Kiro Chat 영역](../.gitbook/assets/placeholder-kiro-chat-영역.png)
-
 - **AI와 대화하는 채팅 창**입니다
 - 여기에 한국어로 원하는 것을 말하면 됩니다!
 - 예시: "편의점 규정 검색 페이지 만들어줘"
 - 카카오톡처럼 **아래쪽 입력창**에 메시지를 타이핑하고 **Enter**를 누르면 됩니다
 
-> **⚠️ 잠깐! Kiro Chat이 안 보인다면?**\
-> 1. 화면 오른쪽을 확인해보세요. 접혀있을 수 있습니다\
-> 2. 상단 메뉴에서 **View** → **Kiro Chat** 을 클릭해보세요\
+> **⚠️ 잠깐! Kiro Chat이 안 보인다면?**
+> 1. 화면 오른쪽을 확인해보세요. 접혀있을 수 있습니다 ! 
+> 2. 오른쪽 상단 메뉴에서 채팅 말풍선 모양 버튼을 클릭해보세요
 > 3. 그래도 안 보이면 진행자에게 물어보세요! 🙋
 
-![Kiro Chat 열기](../.gitbook/assets/placeholder-kiro-chat-열기.png)
+![Kiro Chat 열기](../.gitbook/assets/kiro-project-8.png)
 
 ---
 
@@ -221,11 +220,11 @@ graph LR
 | # | 확인 항목 | 체크 |
 | --- | --- | --- |
 | 1 | ✅ Kiro가 정상 실행된다 | ⬜ |
-| 2 | ✅ AWS 계정 로그인이 완료되었다 | ⬜ |
+| 2 | ✅ AWS Builder 계정 로그인이 완료되었다 | ⬜ |
 | 3 | ✅ `gs25-ai-helper` 프로젝트가 열려있다 (왼쪽에 파일 목록이 보인다) | ⬜ |
 | 4 | ✅ 오른쪽에 **Kiro Chat** 패널이 보인다 | ⬜ |
 
-![준비 완료 상태 화면](../.gitbook/assets/placeholder-준비완료-상태화면.png)
+
 
 > **🎉 모두 체크되셨나요?**\
 > 축하합니다! 환경 설정 완료! 👏👏👏\
