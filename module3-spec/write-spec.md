@@ -4,47 +4,26 @@
 
 ***
 
-## 🔍 Step 1: Specs 패널 찾기
+## 🔍 Step 1: Spec 모드 활용하기
 
-Kiro에서 Spec은 채팅이 아니라 **전용 패널**에서 작성합니다.
+Kiro의 Spec 모드 채팅 창을 열겠습니다.
 
-> **ℹ️ 참고**
-> 채팅은 "자유로운 대화"이고, Spec은 "공식 요청서"라고 생각하시면 됩니다 📄
+1. 이전까지 작업했던 채팅 창의 우측 상단 `+` 버튼을 클릭하면 새로운 대화 창을 열 수 있습니다.
 
-1. Kiro 화면 **왼쪽 사이드바**를 보세요
+![image](../.gitbook/assets/kiro-spec-1.png)
 
-![왼쪽 사이드바에서 Specs 아이콘 위치](../.gitbook/assets/placeholder-specs-sidebar-icon.png)
+2. 새 대화 창이 열리면 아래와 같이 `Spec` 모드를 선택합니다!
 
-2. 사이드바에서 **Specs** 아이콘을 찾아 클릭합니다 (📋 문서 모양 아이콘)
-
-![Specs 아이콘을 클릭하는 모습](../.gitbook/assets/placeholder-specs-icon-click.png)
-
-3. Specs 패널이 열리면, **New Spec** 버튼을 클릭합니다
-
-![New Spec 버튼 위치](../.gitbook/assets/placeholder-new-spec-button.png)
-
-4. Spec 이름을 입력하는 칸이 나타납니다. 아래처럼 입력해주세요:
-
-**📋 Spec 이름 입력**
-
-```
-사고 대응 보고서 생성기
-```
-
-![Spec 이름 입력 화면](../.gitbook/assets/placeholder-spec-name-input.png)
-
-> **⚠️ 잠깐!**
-> Specs 아이콘이 안 보이나요? 😅\
-> 왼쪽 사이드바가 접혀있을 수 있습니다. 사이드바 영역 위에 마우스를 올려보세요.\
-> 그래도 안 보이면 진행자에게 손을 들어주세요! 🙋
+![image](../.gitbook/assets/kiro-spec-2.png)
 
 ***
 
 ## ✏️ Step 2: 요구사항 작성하기
 
-Spec 패널이 열리면 **프롬프트 입력창**이 보입니다. 여기에 "나는 이런 앱이 필요해요"라는 내용을 적으면 됩니다.
+앞서 Vibe 모드로 작업했을 때와 우리의 작업 방식은 비슷합니다!    
+**달라지는 건 AI의 작업 방식이에요!** 🤖 
 
-![Spec 프롬프트 입력창 위치](../.gitbook/assets/placeholder-spec-prompt-input.png)
+채팅창에 "나는 이런 앱이 필요해요"라는 내용을 적어봅니다.
 
 아래 내용을 **복사해서 그대로 붙여넣기** 하세요! (Ctrl+C → Ctrl+V, 맥은 Cmd+C → Cmd+V)
 
