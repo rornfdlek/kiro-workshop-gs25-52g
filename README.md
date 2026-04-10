@@ -36,7 +36,8 @@
 | 📝 **사고 대응 보고서 생성기** | 상황만 입력하면 보고서 초안이 자동으로 나오는 앱 |
 | 🏪 **담배권 리스크 체크** | 점포 주소만 넣으면 리스크 등급을 알려주는 앱 |
 
-![오늘 만들 앱 미리보기](.gitbook/assets/placeholder-완성앱-미리보기.png)
+![Task로 생성된 앱 결과물](.gitbook/assets/kiro-vibe-34.png)
+![Task로 생성된 앱 결과물](.gitbook/assets/kiro-spec-19.png)
 
 ---
 
