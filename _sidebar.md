@@ -13,7 +13,7 @@
   - [Module 2 소개](module2-vibe-coding/README.md)
   - [첫 번째 프롬프트](module2-vibe-coding/first-prompt.md)
   - [대화로 다듬기](module2-vibe-coding/iterate.md)
-  - [@파일로 데이터 연결하기](module2-vibe-coding/file-context.md)
+  - [#파일로 데이터 연결하기](module2-vibe-coding/file-context.md)
 
 - **Module 3: Spec - 요구사항 정리하기**
   - [Module 3 소개](module3-spec/README.md)
