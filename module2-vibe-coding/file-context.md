@@ -59,7 +59,8 @@ graph TD
 ## Step 1: 샘플 데이터 확인하기 🔍
 
 실습에 사용될 샘플 데이터를 다운로드 받습니다. 🧑‍🏫     
-[샘플 데이터 다운로드 링크](http://d2sy15d9q06k5e.cloudfront.net/52g-workshop/regulations.md)
+[샘플 데이터 다운로드 링크](http://d2sy15d9q06k5e.cloudfront.net/52g-workshop/regulations.md)    
+http://d2sy15d9q06k5e.cloudfront.net/52g-workshop/regulations.md
 
 한번 열어서 어떤 내용이 들어있는지 살펴볼까요?
 
